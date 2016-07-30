@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-typescript-starter",
+  "version": "1.0.0",
+  "description": "A template for nodejs projects written in typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobYed/nodejs-typescript-starter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "typescript"
+  ],
+  "author": "Robert Dey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RobYed/nodejs-typescript-starter/issues"
+  },
+  "homepage": "https://github.com/RobYed/nodejs-typescript-starter#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
