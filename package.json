@@ -4,7 +4,10 @@
   "description": "A template for nodejs projects written in typescript",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "start": "npm run watch & npm run serve",
+    "test": "jasmine",
+    "watch": "tsc -w",
+    "serve": "nodemon www/index"
   },
   "repository": {
     "type": "git",

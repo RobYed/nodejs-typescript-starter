@@ -38,3 +38,6 @@ jspm_packages
 
 # TypeScript
 typings
+
+# Compile Folder
+www

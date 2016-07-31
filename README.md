@@ -7,8 +7,10 @@
 * Debugging Integration for Visual Studio Code
 * Unit-Testing with Jasmine
 
+* Linting?
+
 ## Installation
 
 1. Install NodeJS > v5.0.0
-2. `npm install -g typescript typings`
+2. `npm install -g nodemon typescript typings`
 3. `typings install`
