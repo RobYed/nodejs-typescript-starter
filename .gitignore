@@ -41,3 +41,6 @@ typings
 
 # Compile Folder
 dist
+
+# VS Code
+.vscode
