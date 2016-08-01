@@ -12,5 +12,8 @@
 ## Installation
 
 1. Install NodeJS > v5.0.0
-2. `npm install -g nodemon typescript typings`
+2. `npm install -g nodemon typescript typings jasmine`
 3. `typings install`
+
+## Folder Structure
+tba

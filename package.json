@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run watch & npm run serve",
-    "test": "jasmine",
+    "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
     "watch": "tsc -w",
     "serve": "nodemon www/index"
   },
