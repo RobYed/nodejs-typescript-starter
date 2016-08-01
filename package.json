@@ -8,7 +8,7 @@
     "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
     "watch:test": "watch 'npm run test' dist test --wait=0.1",
     "watch:ts": "tsc -w",
-    "serve": "nodemon www/index"
+    "serve": "nodemon dist/index"
   },
   "repository": {
     "type": "git",
