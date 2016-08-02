@@ -10,13 +10,13 @@
 
 ## Installation
 
-1. Install NodeJS > v5.0.0. It is suggested to use Node Version Manager to install NodeJS
+1. Install NodeJS > v5.0.0. It is suggested to use Node Version Manager to install NodeJS:
     [NVM at Github](https://github.com/creationix/nvm)
-2. Install global dependencies
+2. Install global dependencies:
     `npm install -g typescript typings`
-3. Install package dependencies
+3. Install package dependencies:
     `npm install`
-4. Install typings
+4. Install typings:
     `typings install`
 
 ## Folder Structure
