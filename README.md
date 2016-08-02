@@ -10,9 +10,14 @@
 
 ## Installation
 
-1. Install NodeJS > v5.0.0
-2. `npm install -g nodemon typescript typings jasmine watch tslint`
-3. `typings install`
+1. Install NodeJS > v5.0.0. It is suggested to use Node Version Manager to install NodeJS
+    [NVM at Github](https://github.com/creationix/nvm)
+2. Install global dependencies
+    `npm install -g typescript typings`
+3. Install package dependencies
+    `npm install`
+4. Install typings
+    `typings install`
 
 ## Folder Structure
 tba
