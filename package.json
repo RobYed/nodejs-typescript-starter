@@ -4,13 +4,14 @@
   "description": "A template for nodejs projects written in typescript",
   "main": "index.js",
   "scripts": {
-    "start": "npm run watch:ts & npm run serve",
+    "prestart": "npm install && typings install",
+    "start": "npm run build && npm run serve",
     "build": "tsc",
-    "serve": "nodemon dist/index",
     "test": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
+    "lint": "tslint 'src/**/*.ts'",
+    "serve": "nodemon dist/index",
     "watch:test": "watch 'npm run test' dist test --wait=0.1",
-    "watch:ts": "tsc -w",
-    "lint": "tslint 'src/**/*.ts'"
+    "watch:ts": "tsc -w"
   },
   "repository": {
     "type": "git",

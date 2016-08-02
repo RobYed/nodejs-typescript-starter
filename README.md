@@ -7,6 +7,8 @@
 * Debugging Integration for Visual Studio Code
 * Unit-Testing with Jasmine
 * TSLint Linting
+* NPM as build tool
+* Example Express App (coming soon)
 
 ## Installation
 
@@ -14,10 +16,8 @@
     [NVM at Github](https://github.com/creationix/nvm)
 2. Install global dependencies:
     `npm install -g typescript typings`
-3. Install package dependencies:
-    `npm install`
-4. Install typings:
-    `typings install`
+3. Install project dependencies (`npm install` and `typings install`), build and start dev server:
+    `npm start`
 
 ## Folder Structure
 tba
