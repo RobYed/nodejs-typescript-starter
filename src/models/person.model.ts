@@ -1,6 +1,6 @@
 export class Person {
-    name: String
-    age: Number
+    name: String;
+    age: Number;
 
     constructor(name: String, age: Number) {
         this.name = name;
