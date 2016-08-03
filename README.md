@@ -27,3 +27,6 @@ tba
 ### Recommended Settings
 * TSLint Extension
 * Jasmine Code Snippets
+
+## License, Copyright etc.
+Copyright 2016 [Robert Dey](https://github.com/RobYed/) Licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT). Please share with your neighbor.
