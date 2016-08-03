@@ -21,3 +21,9 @@
 
 ## Folder Structure
 tba
+
+## Visual Studio Code
+
+### Recommended Settings
+* TSLint Extension
+* Jasmine Code Snippets
