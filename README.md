@@ -9,7 +9,9 @@ The goal of this project is to provide a basic template for new NodeJS projects 
 It features a simple example Express app, npm build scripts, Jasmine test examples, TypeScript linting and more.
 
 ## Features
-* Express 4.x
+* Example Express 4.x app (coming soon)
+    - MVC project structure
+    - Logging with winston
 * TypeScript 1.8
 * NPM as build tool
 * Nodemon for live-reload while development
@@ -18,9 +20,7 @@ It features a simple example Express app, npm build scripts, Jasmine test exampl
 * Code coverage with Istanbul
 * TSLint Linting
 * Security vulnerability monitoring with Snyk
-* Example Express app (coming soon)
-    - MVC project structure
-    - Logging with winston
+* Prepared for Travis CI
 
 
 ## Usage
