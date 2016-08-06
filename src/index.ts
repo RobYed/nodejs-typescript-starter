@@ -1,5 +1,6 @@
 import * as express from 'express';
+import * as logger from 'winston';
 
-const app: express.Application = express();
+let app: express.Application = express();
 
-app.listen(8080, () => { console.log('Starter server listening on port 8080'); });
+app.listen(8080, () => { logger.info('Starter server listening on port 8080'); });

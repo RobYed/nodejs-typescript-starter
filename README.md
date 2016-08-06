@@ -1,14 +1,19 @@
 # NodeJS TypeScript Starter
 
 ## Features
-* NodeJS 6.x
 * Express 4.x
 * TypeScript 1.8
+* NPM as build tool
 * Debugging Integration for Visual Studio Code
 * Unit-Testing with Jasmine
+* Code coverage with Istanbul
 * TSLint Linting
-* NPM as build tool
+* Security vulnerability monitoring with Snyk
 * Example Express App (coming soon)
+    - Logging with winston
+    - lodash
+    - async
+
 
 ## Installation
 
