@@ -8,7 +8,6 @@
     "start": "npm run build && npm run serve",
     "prebuild": "npm run lint",
     "build": "tsc",
-    "testalt": "jasmine JASMINE_CONFIG_PATH=test/jasmine.json",
     "test": "istanbul cover --config=istanbul.json node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=test/jasmine.json",
     "monitor": "snyk test",
     "lint": "tslint 'src/**/*.ts'",
