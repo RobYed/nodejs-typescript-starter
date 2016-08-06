@@ -1,5 +1,7 @@
 # NodeJS TypeScript Starter
 
+[![Known Vulnerabilities](https://snyk.io/test/github/RobYed/nodejs-typescript-starter/badge.svg)](https://snyk.io/test/github/RobYed/nodejs-typescript-starter)
+
 ## Features
 * Express 4.x
 * TypeScript 1.8
