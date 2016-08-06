@@ -1,5 +1,6 @@
 # NodeJS TypeScript Starter
 
+[![Build Status](https://travis-ci.org/RobYed/nodejs-typescript-starter.svg?branch=master)](https://travis-ci.org/RobYed/nodejs-typescript-starter)
 [![Dependencies](https://david-dm.org/RobYed/nodejs-typescript-starter.svg)](https://david-dm.org/robyed/nodejs-typescript-starter)
 [![Known Vulnerabilities](https://snyk.io/test/github/RobYed/nodejs-typescript-starter/badge.svg)](https://snyk.io/test/github/RobYed/nodejs-typescript-starter)
 
