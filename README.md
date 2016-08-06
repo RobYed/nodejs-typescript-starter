@@ -3,22 +3,23 @@
 [![Dependencies](https://david-dm.org/RobYed/nodejs-typescript-starter.svg)](https://david-dm.org/robyed/nodejs-typescript-starter)
 [![Known Vulnerabilities](https://snyk.io/test/github/RobYed/nodejs-typescript-starter/badge.svg)](https://snyk.io/test/github/RobYed/nodejs-typescript-starter)
 
-**A thin starter template for NodeJS / Express projects written in TypeScript.**
+**A thin starter template for NodeJS / Express projects written in TypeScript + ES6.**
 
-The goal of this project is to provide a basic template for new NodeJS projects based on Express and written in TypeScript. 
+The goal of this project is to provide a basic template for new NodeJS projects based on Express and written in TypeScript + ES6. 
 It features a simple example Express app, npm build scripts, Jasmine test examples, TypeScript linting and more.
 
 ## Features
 * Express 4.x
 * TypeScript 1.8
 * NPM as build tool
+* Nodemon for live-reload while development
 * Debugging Integration for Visual Studio Code
 * Unit-Testing with Jasmine
 * Code coverage with Istanbul
 * TSLint Linting
 * Security vulnerability monitoring with Snyk
 * Example Express app (coming soon)
-    - MVC folder structure
+    - MVC project structure
     - Logging with winston
 
 
@@ -39,13 +40,14 @@ It features a simple example Express app, npm build scripts, Jasmine test exampl
     `npm start`
 
 ## Folder Structure
-tba
+coming soon
 
 ## Visual Studio Code
-
-### Recommended Settings
-* TSLint Extension
-* Jasmine Code Snippets
+It is recommended to use a code editor or IDE with great NodeJS and TypeScript support. 
+[Visual Studio Code](https://code.visualstudio.com) has one of the best integrations for both technologies and is open-source.
+Recommended Extensions for Visual Studio Code and this starter template are:
+* [TSLint Extension](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
+* [Jasmine Code Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JasmineSnippets)
 
 ## License, Copyright etc.
 Copyright 2016 [Robert Dey](https://github.com/RobYed/) Licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT). Please share with your neighbor.
