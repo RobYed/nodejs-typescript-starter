@@ -4,9 +4,10 @@
   "description": "A template for nodejs projects written in typescript",
   "main": "index.js",
   "scripts": {
-    "prestart": "npm install && typings install",
-    "start": "npm run build && npm run serve",
-    "prebuild": "npm run lint && typings install",
+    "prestart": "npm install",
+    "postinstall": "typings install",
+    "start": "npm run build",
+    "prebuild": "npm run lint",
     "build": "tsc",
     "test": "istanbul cover --config=istanbul.json node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=test/jasmine.json",
     "monitor": "snyk test",
