@@ -17,9 +17,9 @@ It features a simple example Express app, npm build scripts, Jasmine test exampl
 * ES6 modules
 * NPM as build tool
 * Nodemon for live-reload during development
-* Debugging Integration for Visual Studio Code
+* Debugging integration for Visual Studio Code
 * Unit-Testing with Jasmine
-* TSLint Linting
+* TSLint linting
 * Code coverage with Istanbul
 * Security vulnerability monitoring with Snyk
 * Prepared for Travis CI
