@@ -1,6 +1,12 @@
 # NodeJS TypeScript Starter
 
+[![Dependencies](https://david-dm.org/RobYed/nodejs-typescript-starter.svg)]
 [![Known Vulnerabilities](https://snyk.io/test/github/RobYed/nodejs-typescript-starter/badge.svg)](https://snyk.io/test/github/RobYed/nodejs-typescript-starter)
+
+**A thin starter for NodeJS / Express projects written in TypeScript.**
+
+The goal of this project is to provide a basic template for new NodeJS projects based on Express and written in TypeScript. 
+It features a simple example Express app, npm build scripts, Jasmine test examples, TypeScript linting and more.
 
 ## Features
 * Express 4.x
@@ -11,19 +17,21 @@
 * Code coverage with Istanbul
 * TSLint Linting
 * Security vulnerability monitoring with Snyk
-* Example Express App (coming soon)
+* Example Express app (coming soon)
+    - MVC folder structure
     - Logging with winston
-    - lodash
-    - async
 
 
-## Installation
+## Usage
 
-1. Install NodeJS > v5.0.0. It is suggested to use Node Version Manager to install NodeJS:
+1. Clone this Repository and change into its directory
+    `git clone --depth=1 https://github.com/RobYed/nodejs-typescript-starter.git your-project-name`
+    `cd your-project-name`
+2. Install NodeJS > v5.0.0. It is suggested to use Node Version Manager to install NodeJS:
     [NVM at Github](https://github.com/creationix/nvm)
-2. Install global dependencies:
+3. Install global dependencies:
     `npm install -g typescript typings`
-3. Install project dependencies (`npm install` and `typings install`), build and start dev server:
+4. Install project dependencies (`npm install` and `typings install`), build and start dev server:
     `npm start`
 
 ## Folder Structure
