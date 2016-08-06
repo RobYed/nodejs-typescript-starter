@@ -13,13 +13,14 @@ It features a simple example Express app, npm build scripts, Jasmine test exampl
 * Example Express 4.x app (coming soon)
     - MVC project structure
     - Logging with winston
-* TypeScript 1.8
+* TypeScript
+* ES6 modules
 * NPM as build tool
-* Nodemon for live-reload while development
+* Nodemon for live-reload during development
 * Debugging Integration for Visual Studio Code
 * Unit-Testing with Jasmine
-* Code coverage with Istanbul
 * TSLint Linting
+* Code coverage with Istanbul
 * Security vulnerability monitoring with Snyk
 * Prepared for Travis CI
 
@@ -46,7 +47,7 @@ coming soon
 ## Visual Studio Code
 It is recommended to use a code editor or IDE with great NodeJS and TypeScript support. 
 [Visual Studio Code](https://code.visualstudio.com) has one of the best integrations for both technologies and is open-source.
-Recommended Extensions for Visual Studio Code and this starter template are:
+Recommended Extensions for Visual Studio Code in combination with this starter template are:
 * [TSLint Extension](https://marketplace.visualstudio.com/items?itemName=eg2.tslint)
 * [Jasmine Code Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JasmineSnippets)
 
