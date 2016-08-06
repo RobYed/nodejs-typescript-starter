@@ -1,9 +1,9 @@
 # NodeJS TypeScript Starter
 
-[![Dependencies](https://david-dm.org/RobYed/nodejs-typescript-starter.svg)]
+[![Dependencies](https://david-dm.org/RobYed/nodejs-typescript-starter.svg)](https://david-dm.org/robyed/nodejs-typescript-starter)
 [![Known Vulnerabilities](https://snyk.io/test/github/RobYed/nodejs-typescript-starter/badge.svg)](https://snyk.io/test/github/RobYed/nodejs-typescript-starter)
 
-**A thin starter for NodeJS / Express projects written in TypeScript.**
+**A thin starter template for NodeJS / Express projects written in TypeScript.**
 
 The goal of this project is to provide a basic template for new NodeJS projects based on Express and written in TypeScript. 
 It features a simple example Express app, npm build scripts, Jasmine test examples, TypeScript linting and more.
@@ -25,13 +25,17 @@ It features a simple example Express app, npm build scripts, Jasmine test exampl
 ## Usage
 
 1. Clone this Repository and change into its directory
+
     `git clone --depth=1 https://github.com/RobYed/nodejs-typescript-starter.git your-project-name`
+
     `cd your-project-name`
 2. Install NodeJS > v5.0.0. It is suggested to use Node Version Manager to install NodeJS:
     [NVM at Github](https://github.com/creationix/nvm)
 3. Install global dependencies:
+
     `npm install -g typescript typings`
 4. Install project dependencies (`npm install` and `typings install`), build and start dev server:
+
     `npm start`
 
 ## Folder Structure
