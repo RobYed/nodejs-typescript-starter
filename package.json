@@ -6,7 +6,7 @@
   "scripts": {
     "prestart": "npm install && typings install",
     "start": "npm run build && npm run serve",
-    "prebuild": "npm run lint",
+    "prebuild": "npm run lint && typings install",
     "build": "tsc",
     "test": "istanbul cover --config=istanbul.json node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=test/jasmine.json",
     "monitor": "snyk test",
@@ -32,7 +32,6 @@
   "homepage": "https://github.com/RobYed/nodejs-typescript-starter#readme",
   "dependencies": {
     "express": "^4.14.0",
-    "lodash": "^4.14.1",
     "winston": "^2.2.0"
   },
   "devDependencies": {
