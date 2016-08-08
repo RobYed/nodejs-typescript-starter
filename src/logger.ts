@@ -1,6 +1,5 @@
 import * as winston from 'winston';
-
-winston.emitErrs = true;
+import * as morgan from 'morgan';
 
 export let logger: winston.LoggerInstance = new winston.Logger({
     transports: [
@@ -23,8 +22,6 @@ export let logger: winston.LoggerInstance = new winston.Logger({
     exitOnError: false
 });
 
-export let loggerStream = {
-    write: function(message, encoding){
-        logger.info(message);
-    }
+export let loggerStream: morgan.StreamOptions = {
+    write: logger.info
 };
