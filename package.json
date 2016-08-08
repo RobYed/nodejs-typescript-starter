@@ -33,12 +33,12 @@
   "homepage": "https://github.com/RobYed/nodejs-typescript-starter#readme",
   "dependencies": {
     "express": "^4.14.0",
+    "morgan": "^1.7.0",
     "winston": "^2.2.0"
   },
   "devDependencies": {
     "istanbul": "^0.4.4",
     "jasmine": "^2.4.1",
-    "morgan": "^1.7.0",
     "nodemon": "^1.10.0",
     "snyk": "^1.18.0",
     "tslint": "^3.14.0",
