@@ -10,20 +10,20 @@ The goal of this project is to provide a basic template for new NodeJS projects 
 It features a simple example Express app, npm build scripts, Jasmine test examples, TypeScript linting and more.
 
 ## Features
-* Example (Express 4.x)[http://expressjs.com] app (coming soon)
+* Example [Express 4.x](http://expressjs.com) app (coming soon)
     - MVC project structure
-    - Application logging with (winston)[https://github.com/winstonjs/winston]
-    - HTTP request loggin with (morgan)[https://github.com/expressjs/morgan]
-* (TypeScript)[http://www.typescriptlang.org]
+    - Application logging with [winston](https://github.com/winstonjs/winston)
+    - HTTP request loggin with [morgan](https://github.com/expressjs/morgan)
+* [TypeScript](http://www.typescriptlang.org)
 * ES6 modules
 * NPM as build tool
-* (Nodemon)[http://nodemon.io] for live-reload during development
+* [Nodemon](http://nodemon.io) for live-reload during development
 * Debugging integration for Visual Studio Code
-* Unit-Testing with (Jasmine)[http://jasmine.github.io]
-* (TSLint)[https://palantir.github.io/tslint/] linting
-* Code coverage with (Istanbul)[https://github.com/gotwarlost/istanbul]
-* Security vulnerability monitoring with (Snyk)[https://snyk.io]
-* Prepared for (Travis CI)[https://travis-ci.org]
+* Unit-Testing with [Jasmine](http://jasmine.github.io)
+* [TSLint](https://palantir.github.io/tslint/) linting
+* Code coverage with [Istanbul](https://github.com/gotwarlost/istanbul)
+* Security vulnerability monitoring with [Snyk](https://snyk.io)
+* Prepared for [Travis CI](https://travis-ci.org)
 
 
 ## Usage
