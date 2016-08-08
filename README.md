@@ -14,6 +14,7 @@ It features a simple example Express app, npm build scripts, Jasmine test exampl
     - MVC project structure
     - Application logging with [winston](https://github.com/winstonjs/winston)
     - HTTP request loggin with [morgan](https://github.com/expressjs/morgan)
+    - public folder for static files
 * [TypeScript](http://www.typescriptlang.org)
 * ES6 modules
 * NPM as build tool
