@@ -1,6 +1,6 @@
 {
   "name": "nodejs-typescript-starter",
-  "version": "1.1.0",
+  "version": "0.6.0",
   "description": "A template for nodejs projects written in typescript",
   "main": "index.js",
   "scripts": {
@@ -12,8 +12,8 @@
     "test": "istanbul cover --config=istanbul.json node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=test/jasmine.json",
     "monitor": "snyk test",
     "lint": "tslint 'src/**/*.ts'",
-    "serve": "nodemon dist/index",
-    "watch:test": "watch 'npm run test' dist test --wait=0.1",
+    "serve": "nodemon dist/index --watch dist",
+    "watch:test": "watch 'npm run test' dist --wait=0.1",
     "watch:ts": "tsc -w"
   },
   "repository": {
@@ -38,6 +38,7 @@
   "devDependencies": {
     "istanbul": "^0.4.4",
     "jasmine": "^2.4.1",
+    "morgan": "^1.7.0",
     "nodemon": "^1.10.0",
     "snyk": "^1.18.0",
     "tslint": "^3.14.0",
