@@ -36,7 +36,11 @@ export class BooksController {
   }
 
   retrieveBook(req: express.Request, res: express.Response): void {
+    let bookResult = BooksController.books.filter((book) => {
+      return book.id === parseInt(req.params.bookId);
+    });
 
+    res.send(bookResult);
   }
 
   updateBook(req: express.Request, res: express.Response): void {
