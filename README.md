@@ -10,10 +10,12 @@ The goal of this project is to provide a basic template for new NodeJS projects 
 It features a simple example Express app, npm build scripts, Jasmine test examples, TypeScript linting and more.
 
 ## Features
-* Example [Express 4.x](http://expressjs.com) app (coming soon)
+* Example [Express 4.x](http://expressjs.com) app 
+    - Basic RESTful CRUD application (coming soon)
     - MVC project structure
     - Application logging with [winston](https://github.com/winstonjs/winston)
     - HTTP request loggin with [morgan](https://github.com/expressjs/morgan)
+    - Secure HTTP headers with [Helmet](https://github.com/helmetjs/helmet)
     - public folder for static files
 * [TypeScript](http://www.typescriptlang.org)
 * ES6 modules
@@ -26,6 +28,7 @@ It features a simple example Express app, npm build scripts, Jasmine test exampl
 * Security vulnerability monitoring with [Snyk](https://snyk.io)
 * Prepared for [Travis CI](https://travis-ci.org)
 
+I intentionally did not include any database as the choice of the right database highly depends on your use case.
 
 ## Usage
 
