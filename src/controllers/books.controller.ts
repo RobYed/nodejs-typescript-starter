@@ -28,7 +28,7 @@ export class BooksController {
   }
 
   createBook(req: express.Request, res: express.Response): void {
-    let book = new Book('test title', 'Robert Test', 'some description', new Date(2014), '324-21435235');
+    let book = new Book('test title', ['Robert Test'], 'some description', new Date(2014), '324-21435235');
 
     BooksController.books.push(book);
 

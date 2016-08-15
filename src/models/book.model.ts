@@ -1,5 +1,5 @@
 export interface IBook {
-  id: Number,
+  id: Number;
   title: String;
   authors: Array<String>;
   description: String;
@@ -44,10 +44,10 @@ export let BookExamples: Array<IBook> = [
   new Book(
     'Site Reliability Engineering: How Google Runs Production Systems',
     ['Betsy Beyer', 'Chris Jones', 'Jennifer Petoff', 'Niall Richard Murphy'],
-    'The overwhelming majority of a software system'+"'"+'s lifespan is spent in use, not in design or implementation. ' +
+    'The overwhelming majority of a software system`s lifespan is spent in use, not in design or implementation. ' +
     ' So, why does conventional wisdom insist that software engineers focus primarily on the design and development of ' +
     'large-scale computing systems?',
     new Date(2016, 4, 8),
     '978-1491929124'
   )
-]
+];
