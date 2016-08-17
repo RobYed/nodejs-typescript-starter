@@ -12,7 +12,7 @@
     "test": "istanbul cover --config=istanbul.json node_modules/jasmine/bin/jasmine.js JASMINE_CONFIG_PATH=test/jasmine.json",
     "monitor": "snyk test",
     "lint": "tslint 'src/**/*.ts'",
-    "serve": "nodemon dist/index --watch dist",
+    "serve": "nodemon --debug dist/index --watch dist",
     "watch:test": "watch 'npm run test' dist --wait=0.1",
     "watch:ts": "tsc -w"
   },
@@ -32,6 +32,7 @@
   },
   "homepage": "https://github.com/RobYed/nodejs-typescript-starter#readme",
   "dependencies": {
+    "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "helmet": "^2.1.2",
     "morgan": "^1.7.0",
