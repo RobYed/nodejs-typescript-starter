@@ -1,4 +1,5 @@
 import * as express from 'express';
+import { logger } from '../logger';
 import { IBook, Book, BookExamples } from '../models/book.model';
 
 
@@ -28,7 +29,22 @@ class BooksController {
   }
 
   createBook(req: express.Request, res: express.Response): void {
-    let book = new Book('test title', ['Robert Test'], 'some description', new Date(2014), '324-21435235');
+    let book: IBook;
+    if (typeof req.body.title !== 'string' ||
+        typeof req.body.author !== 'object' ||
+        typeof req.body.description !== 'string' ||
+        typeof req.body.ISBN !== 'string') {
+          res.sendStatus(400);
+          return;
+    }
+
+    book = new Book(
+      req.body.title,
+      req.body.author,
+      req.body.description,
+      new Date(2014),
+      req.body.ISBN
+    );
 
     BooksController.books.push(book);
 
