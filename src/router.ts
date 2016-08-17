@@ -1,9 +1,7 @@
 import { Router } from 'express';
-import { BooksController } from './controllers/books.controller';
+import { booksController } from './controllers/books.controller';
 
 export let router = Router();
-
-let booksController = new BooksController();
 
 // get all books
 router.get('/books', booksController.getAllBooks);

@@ -16,11 +16,11 @@ app.use( helmet() );
 // register app routes
 app.use( router );
 
-// configure http request logging
-app.use( morgan( 'combined', { stream: loggerStream } ) );
-
 // configure serving client as static files
 app.use( express.static('public') );
+
+// configure morgan to use the app's logger for http request logging
+app.use( morgan( 'combined', { stream: loggerStream } ) );
 
 // start the server
 app.listen(8080, () => { logger.info('Starter server listening on port 8080'); });

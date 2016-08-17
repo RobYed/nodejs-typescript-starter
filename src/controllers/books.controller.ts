@@ -10,7 +10,7 @@ interface IBooksController {
   deleteBook(req: Express.Request, res: Express.Response): void;
 }
 
-export class BooksController {
+class BooksController {
 
   public static books: Array<IBook> = BookExamples;
 
@@ -24,7 +24,7 @@ export class BooksController {
       bookList.push({ id: book.id, title: book.title });
     });
 
-    res.send(bookList);
+    res.json(bookList);
   }
 
   createBook(req: express.Request, res: express.Response): void {
@@ -32,7 +32,7 @@ export class BooksController {
 
     BooksController.books.push(book);
 
-    res.send(book);
+    res.json(book);
   }
 
   retrieveBook(req: express.Request, res: express.Response): void {
@@ -40,7 +40,7 @@ export class BooksController {
       return book.id === parseInt(req.params.bookId);
     });
 
-    res.send(bookResult);
+    res.json(bookResult);
   }
 
   updateBook(req: express.Request, res: express.Response): void {
@@ -52,3 +52,5 @@ export class BooksController {
   }
 
 }
+
+export const booksController = new BooksController();
