@@ -1,6 +1,7 @@
 import * as express from 'express';
 import { logger } from '../logger';
-import { IBook, Book, BookExamples } from '../models/book.model';
+import { IBook, Book } from '../models/book.model';
+import { bookExample } from '../models/book.example';
 
 
 interface IBooksController {
@@ -13,9 +14,18 @@ interface IBooksController {
 
 class BooksController {
 
-  public static books: Array<IBook> = BookExamples;
+  public static books: Array<IBook> = [];
 
   constructor() {
+    for (let book in bookExample) {
+      BooksController.books.push( new Book(
+        bookExample[book].title,
+        bookExample[book].author,
+        bookExample[book].description,
+        new Date( bookExample[book].datePublished ),
+        bookExample[book].ISBN
+      ));
+    }
   }
 
   getAllBooks(req: express.Request, res: express.Response): void {
@@ -52,19 +62,27 @@ class BooksController {
   }
 
   retrieveBook(req: express.Request, res: express.Response): void {
-    let bookResult = BooksController.books.filter((book) => {
-      return book.id === parseInt(req.params.bookId);
-    });
-
-    res.json(bookResult);
+    res.json(
+      BooksController.findOneById(parseInt(req.params.bookId))
+    );
   }
 
   updateBook(req: express.Request, res: express.Response): void {
-
+    // TODO
   }
 
   deleteBook(req: express.Request, res: express.Response): void {
+    res.json(
+      BooksController.books.filter( (book) => book.id !== parseInt(req.params.bookId) )
+    );
+  }
 
+  private static findOneById(bookId: Number): Array<IBook> {
+    let bookResult = BooksController.books.filter((book) => {
+      return book.id === bookId;
+    });
+
+    return bookResult;
   }
 
 }
