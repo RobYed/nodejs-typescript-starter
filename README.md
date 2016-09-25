@@ -11,7 +11,7 @@ It features a simple example Express app, npm build scripts, Jasmine test exampl
 
 ## Features
 * Example [Express 4.x](http://expressjs.com) app 
-    - Basic RESTful CRUD application (coming soon)
+    - Basic RESTful CRUD application
     - MVC project structure
     - Application logging with [winston](https://github.com/winstonjs/winston)
     - HTTP request loggin with [morgan](https://github.com/expressjs/morgan)
