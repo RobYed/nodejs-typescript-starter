@@ -1,11 +1,10 @@
 {
   "name": "nodejs-typescript-starter",
-  "version": "0.7.0",
+  "version": "0.7.1",
   "description": "A template for nodejs projects written in typescript",
   "main": "index.js",
   "scripts": {
     "prestart": "npm install",
-    "postinstall": "typings install",
     "start": "npm run build",
     "prebuild": "npm run lint",
     "build": "tsc",
@@ -32,20 +31,24 @@
   },
   "homepage": "https://github.com/RobYed/nodejs-typescript-starter#readme",
   "dependencies": {
+    "@types/body-parser": "^1.16.1",
+    "@types/express": "^4.0.35",
+    "@types/helmet": "^0.0.34",
+    "@types/morgan": "^1.7.0",
+    "@types/winston": "^2.3.0",
     "body-parser": "^1.17.0",
     "express": "^4.15.0",
     "helmet": "^3.5.0",
-    "morgan": "^1.7.0",
-    "winston": "^2.2.0"
+    "morgan": "^1.8.0",
+    "winston": "^2.3.0"
   },
   "devDependencies": {
     "istanbul": "^0.4.5",
     "jasmine": "^2.5.2",
-    "nodemon": "^1.10.2",
-    "snyk": "^1.19.1",
+    "nodemon": "^1.11.0",
+    "snyk": "^1.25.0",
     "tslint": "^4.5.1",
-    "typescript": "^2.0.3",
-    "typings": "^1.4.0",
+    "typescript": "^2.2.0",
     "watch": "^1.0.2"
   }
 }

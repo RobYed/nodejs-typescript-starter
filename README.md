@@ -41,8 +41,8 @@ I intentionally did not include any database as the choice of the right database
     [NVM at Github](https://github.com/creationix/nvm)
 3. Install global dependencies:
 
-    `npm install -g typescript typings`
-4. Install project dependencies (`npm install` and `typings install`), build and start dev server:
+    `npm install -g typescript`
+4. Install project dependencies (`npm install`), build and start dev server:
 
     `npm start`
 
@@ -60,4 +60,4 @@ Recommended Extensions for Visual Studio Code in combination with this starter t
 * [Jasmine Code Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.JasmineSnippets)
 
 ## License, Copyright etc.
-Copyright 2016 [Robert Dey](https://github.com/RobYed/) Licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT). Please share with your neighbor.
+Copyright 2017 [Robert Dey](https://github.com/RobYed/) Licensed under the terms of the [MIT License](https://opensource.org/licenses/MIT). Please share with your neighbor.
