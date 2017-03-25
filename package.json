@@ -32,9 +32,9 @@
   },
   "homepage": "https://github.com/RobYed/nodejs-typescript-starter#readme",
   "dependencies": {
-    "body-parser": "^1.15.2",
-    "express": "^4.14.0",
-    "helmet": "^2.2.0",
+    "body-parser": "^1.17.0",
+    "express": "^4.15.0",
+    "helmet": "^3.5.0",
     "morgan": "^1.7.0",
     "winston": "^2.2.0"
   },
@@ -43,9 +43,9 @@
     "jasmine": "^2.5.2",
     "nodemon": "^1.10.2",
     "snyk": "^1.19.1",
-    "tslint": "^3.15.1",
+    "tslint": "^4.5.1",
     "typescript": "^2.0.3",
     "typings": "^1.4.0",
-    "watch": "^0.19.2"
+    "watch": "^1.0.2"
   }
 }
